@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="556.0" prefWidth="914.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="c195Project.controller.MainMenuController">
+<children>
+    <TableView id="customers" layoutX="16.0" layoutY="65.0" prefHeight="140.0" prefWidth="824.0">
+        <columns>
+            <TableColumn prefWidth="75.0" text="C1" />
+            <TableColumn prefWidth="75.0" text="C2" />
+        </columns>
+    </TableView>
+    <TableView id="appointment" layoutX="15.0" layoutY="330.0" prefHeight="140.0" prefWidth="824.0">
+        <columns>
+            <TableColumn prefWidth="75.0" text="C1" />
+            <TableColumn prefWidth="75.0" text="C2" />
+        </columns>
+    </TableView>
+    <Button id="custAdd" layoutX="24.0" layoutY="220.0" mnemonicParsing="false" text="ADD" />
+    <Button id="custEdit" layoutX="95.0" layoutY="220.0" mnemonicParsing="false" text="EDIT" />
+    <Button id="custDel" layoutX="162.0" layoutY="220.0" mnemonicParsing="false" text="DELETE" />
+    <Button id="appAdd" layoutX="24.0" layoutY="486.0" mnemonicParsing="false" text="ADD" />
+    <Button id="appEdit" layoutX="95.0" layoutY="486.0" mnemonicParsing="false" text="EDIT" />
+    <Button id="appDel" layoutX="162.0" layoutY="486.0" mnemonicParsing="false" text="DELETE" />
+      <Label layoutX="427.0" layoutY="14.0" text="Main Menu" textFill="#1e21c9" underline="true">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+      <Label layoutX="24.0" layoutY="31.0" text="Customers" underline="true">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+      <Label layoutX="24.0" layoutY="288.0" text="Appointments" underline="true">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+      <Button id="reports" layoutX="686.0" layoutY="488.0" mnemonicParsing="false" text="Reports" />
+      <Button id="logout" layoutX="783.0" layoutY="486.0" mnemonicParsing="false" text="Logout" />
+      <RadioButton id="weekRadioButton" layoutX="448.0" layoutY="288.0" mnemonicParsing="false" text="This Week" />
+      <RadioButton id="monthRadioButton" layoutX="545.0" layoutY="288.0" mnemonicParsing="false" text="This Month" />
+      <RadioButton id="allRadioButton" layoutX="642.0" layoutY="288.0" mnemonicParsing="false" text="All Appointments" />
+</children>
+</AnchorPane>
