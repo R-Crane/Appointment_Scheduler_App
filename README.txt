@@ -1,5 +1,5 @@
 
-C195 - Appointment Scheduling Application
+Appointment Scheduling Application
 This application will allow a user to login with existing credentials;
 Once logged in a user may Add, Edit, and Delete customers AND
 The user may also Add, Edit, And Delete Appointments;
